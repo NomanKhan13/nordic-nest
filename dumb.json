@@ -1,0 +1,686 @@
+[
+  {
+    "id": 1,
+    "title": "Nordic Retreat with Stunning Views",
+    "description": "Immerse yourself in the beauty of the Nordic landscape at this sleek and stylish cabin. With floor-to-ceiling windows and a spacious deck, you'll have breathtaking views of the surrounding mountains.",
+    "price": 250,
+    "rating": 4.9,
+    "superhost": true,
+    "location": "Norway",
+    "capacity": {
+      "people": 3,
+      "bedroom": 2
+    },
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Cabin with Private Sauna",
+    "description": "Get away from it all at this secluded cabin, tucked away in the heart of the Nordic wilderness. Relax in your own private sauna or take a dip in the nearby lake. With its rustic charm and peaceful surroundings.",
+    "price": 170,
+    "rating": 4.9,
+    "superhost": true,
+    "location": "Finland",
+    "capacity": {
+      "people": 4,
+      "bedroom": 2
+    },
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Cozy Cabin in the Woods",
+    "description": "Escape to this charming cabin nestled in the heart of the Nordic wilderness. With its rustic decor and peaceful surroundings, you'll feel a million miles away from the hustle and bustle of everyday life.",
+    "price": 180,
+    "rating": 4.7,
+    "superhost": false,
+    "location": "Sweden",
+    "capacity": {
+      "people": 3,
+      "bedroom": 2
+    },
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Charming Cabin with Lake Access",
+    "description": "Enjoy the best of both worlds at this charming Nordic cabin, located just steps from a beautiful lake. Spend your days swimming, fishing, or kayaking, then come back to a cabin for a relaxing evening by the fire.",
+    "price": 150,
+    "rating": 4.9,
+    "superhost": true,
+    "location": "Switzerland",
+    "capacity": {
+      "people": 2,
+      "bedroom": 1
+    },
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Log Cabin with Fireplace",
+    "description": "Experience the charm of a traditional Nordic log cabin at this retreat. You'll feel like you've stepped back in time. But don't worry, you'll still have all the modern amenities you need for a comfortable stay.",
+    "price": 99,
+    "rating": 4.9,
+    "superhost": false,
+    "location": "Sweden",
+    "capacity": {
+      "people": 2,
+      "bedroom": 1
+    },
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Cabin with Mountain Views",
+    "description": "Soak in the stunning mountain views from the comfort of your own private hot tub at this beautiful Nordic cabin. With its spacious deck and interior, you'll have everything you need for a relaxing stay.",
+    "price": 225,
+    "rating": 4.8,
+    "superhost": true,
+    "location": "Norway",
+    "capacity": {
+      "people": 5,
+      "bedroom": 2
+    },
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Panoramic Nordic Getaway",
+    "description": "Wake up to breathtaking mountain sunrises from your elevated Nordic perch. A true retreat for writers, couples, or nature lovers.",
+    "price": 245,
+    "rating": 4.8,
+    "superhost": true,
+    "location": "Norway",
+    "capacity": {
+      "people": 3,
+      "bedroom": 2
+    },
+    "bathroom": 1,
+    "wifi": true,
+    "petFriendly": false,
+    "cabinType": "Modern",
+    "amenities": ["Deck", "Mountain View", "Fireplace", "Heated Floors"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-1.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Sauna Hideaway in the Pines",
+    "description": "Enjoy a forest bath and finish the day in your private sauna. This traditional Finnish retreat offers peace, privacy, and pine-scented air.",
+    "price": 160,
+    "rating": 4.7,
+    "superhost": true,
+    "location": "Finland",
+    "capacity": {
+      "people": 4,
+      "bedroom": 2
+    },
+    "bathroom": 1,
+    "wifi": false,
+    "petFriendly": true,
+    "cabinType": "Rustic",
+    "amenities": ["Sauna", "Lake Access", "Grill", "Snowshoes"],
+    "availability": "Booked",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-2.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Forest Cabin for Quiet Retreat",
+    "description": "A minimalist escape deep in the woods of Sweden. This eco-cabin is ideal for slow living and off-grid weekends.",
+    "price": 165,
+    "rating": 4.6,
+    "superhost": false,
+    "location": "Sweden",
+    "capacity": {
+      "people": 2,
+      "bedroom": 1
+    },
+    "bathroom": 1,
+    "wifi": false,
+    "petFriendly": true,
+    "cabinType": "Eco",
+    "amenities": ["Wood Stove", "Compost Toilet", "Board Games"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-3.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Lakeside Escape with Firepit",
+    "description": "Swim, kayak or sit by the firepit under the stars. This lakeside gem is great for couples or solo travelers seeking peace.",
+    "price": 155,
+    "rating": 4.8,
+    "superhost": true,
+    "location": "Switzerland",
+    "capacity": {
+      "people": 2,
+      "bedroom": 1
+    },
+    "bathroom": 1,
+    "wifi": true,
+    "petFriendly": false,
+    "cabinType": "Cottage",
+    "amenities": ["Lake Access", "Firepit", "Outdoor Dining"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-4.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Classic Log Home with Porch Swing",
+    "description": "Chop wood, drink cocoa and enjoy a nostalgic cabin experience. This log home offers vintage charm with modern comfort.",
+    "price": 105,
+    "rating": 4.9,
+    "superhost": false,
+    "location": "Sweden",
+    "capacity": {
+      "people": 2,
+      "bedroom": 1
+    },
+    "bathroom": 1,
+    "wifi": true,
+    "petFriendly": true,
+    "cabinType": "Log",
+    "amenities": ["Fireplace", "Porch Swing", "Bookshelf"],
+    "availability": "Booked",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-5.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Mountain Hot Tub Escape",
+    "description": "Soak under the stars with panoramic mountain views. Perfect for families or friend groups, this mountain-top cabin is unforgettable.",
+    "price": 235,
+    "rating": 4.8,
+    "superhost": true,
+    "location": "Norway",
+    "capacity": {
+      "people": 5,
+      "bedroom": 2
+    },
+    "bathroom": 2,
+    "wifi": true,
+    "petFriendly": true,
+    "cabinType": "Luxury",
+    "amenities": ["Hot Tub", "Mountain View", "Smart TV", "Washer"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-6.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Minimalist Nordic Writer’s Cabin",
+    "description": "A tranquil spot to disconnect and write your next masterpiece. Features a minimalist Scandinavian design and inspiring forest views.",
+    "price": 130,
+    "rating": 4.5,
+    "superhost": false,
+    "location": "Finland",
+    "capacity": {
+      "people": 2,
+      "bedroom": 1
+    },
+    "bathroom": 1,
+    "wifi": false,
+    "petFriendly": false,
+    "cabinType": "Minimalist",
+    "amenities": ["Desk", "Forest View", "Outdoor Bench"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-2.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Luxury Lakeside Villa",
+    "description": "Step into luxury at this Scandinavian-style villa with lakefront views, a private dock, and top-tier amenities.",
+    "price": 310,
+    "rating": 5.0,
+    "superhost": true,
+    "location": "Switzerland",
+    "capacity": {
+      "people": 6,
+      "bedroom": 3
+    },
+    "bathroom": 2,
+    "wifi": true,
+    "petFriendly": true,
+    "cabinType": "Villa",
+    "amenities": ["Private Dock", "Jacuzzi", "Smart Lighting", "Wine Fridge"],
+    "availability": "Booked",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-4.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Ski-In/Ski-Out Log Chalet",
+    "description": "Located near a scenic ski trail, this cozy chalet features direct slope access, a roaring fireplace, and winter sports gear.",
+    "price": 190,
+    "rating": 4.6,
+    "superhost": true,
+    "location": "Sweden",
+    "capacity": {
+      "people": 4,
+      "bedroom": 2
+    },
+    "bathroom": 1,
+    "wifi": true,
+    "petFriendly": false,
+    "cabinType": "Chalet",
+    "amenities": ["Ski Storage", "Fireplace", "Gear Rental Nearby"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-5.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Eco-Lodge by the Fjord",
+    "description": "Sustainable living meets stunning nature at this eco-lodge. Solar-powered and surrounded by Nordic beauty.",
+    "price": 200,
+    "rating": 4.9,
+    "superhost": true,
+    "location": "Norway",
+    "capacity": {
+      "people": 3,
+      "bedroom": 1
+    },
+    "bathroom": 1,
+    "wifi": true,
+    "petFriendly": true,
+    "cabinType": "Eco-Lodge",
+    "amenities": ["Solar Panels", "Rainwater Shower", "Organic Garden"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-1.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Remote Cabin for Stargazing",
+    "description": "With no nearby city lights, this cabin offers some of the best stargazing in the Nordics. Perfect for astronomy lovers.",
+    "price": 175,
+    "rating": 4.7,
+    "superhost": false,
+    "location": "Finland",
+    "capacity": {
+      "people": 2,
+      "bedroom": 1
+    },
+    "bathroom": 1,
+    "wifi": false,
+    "petFriendly": true,
+    "cabinType": "Tiny",
+    "amenities": ["Skylight", "Star Map", "Telescope"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-2.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Family Cabin with Game Room",
+    "description": "A spacious cabin ideal for families, featuring a game room, bunk beds for kids, and a backyard perfect for snow play.",
+    "price": 210,
+    "rating": 4.8,
+    "superhost": true,
+    "location": "Sweden",
+    "capacity": {
+      "people": 5,
+      "bedroom": 3
+    },
+    "bathroom": 2,
+    "wifi": true,
+    "petFriendly": false,
+    "cabinType": "Family",
+    "amenities": ["Game Room", "Bunk Beds", "Backyard", "Board Games"],
+    "availability": "Booked",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-3.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Secluded Cabin with Aurora Views",
+    "description": "Watch the Northern Lights dance across the sky in this secluded Nordic retreat. Ideal for couples seeking a magical experience.",
+    "price": 220,
+    "rating": 4.9,
+    "superhost": true,
+    "location": "Finland",
+    "capacity": {
+      "people": 2,
+      "bedroom": 1
+    },
+    "bathroom": 1,
+    "wifi": false,
+    "petFriendly": false,
+    "cabinType": "Romantic",
+    "amenities": ["Aurora View", "Fireplace", "Fur Throws"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-2.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Alpine Retreat with Outdoor Tub",
+    "description": "Bathe outdoors surrounded by snow-capped peaks. A blend of luxury and rugged beauty, perfect for winter getaways.",
+    "price": 260,
+    "rating": 4.9,
+    "superhost": true,
+    "location": "Switzerland",
+    "capacity": {
+      "people": 4,
+      "bedroom": 2
+    },
+    "bathroom": 2,
+    "wifi": true,
+    "petFriendly": true,
+    "cabinType": "Alpine",
+    "amenities": ["Outdoor Tub", "Mountain View", "Heated Floors"],
+    "availability": "Booked",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-4.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Cabin Overlooking Frozen Lake",
+    "description": "Gaze across a frozen lake while sipping hot chocolate by the fireplace. A quiet and cozy retreat in the winter months.",
+    "price": 195,
+    "rating": 4.7,
+    "superhost": false,
+    "location": "Sweden",
+    "capacity": {
+      "people": 3,
+      "bedroom": 2
+    },
+    "bathroom": 1,
+    "wifi": true,
+    "petFriendly": false,
+    "cabinType": "Traditional",
+    "amenities": ["Lake View", "Fireplace", "Snow Boots"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-5.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Hiker’s Cabin with Trail Access",
+    "description": "Step outside and you're already on a scenic trail. Designed for outdoor lovers, this simple cabin is big on adventure.",
+    "price": 140,
+    "rating": 4.6,
+    "superhost": false,
+    "location": "Norway",
+    "capacity": {
+      "people": 2,
+      "bedroom": 1
+    },
+    "bathroom": 1,
+    "wifi": false,
+    "petFriendly": true,
+    "cabinType": "Compact",
+    "amenities": ["Trail Access", "Drying Room", "First Aid Kit"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-1.jpg"
+  },
+  {
+    "id": 23,
+    "title": "Artisan's Cabin in the Woods",
+    "description": "Handcrafted wood interiors and artisan furniture set this creative cabin apart. Perfect for artists or crafters.",
+    "price": 185,
+    "rating": 4.8,
+    "superhost": true,
+    "location": "Finland",
+    "capacity": {
+      "people": 3,
+      "bedroom": 2
+    },
+    "bathroom": 1,
+    "wifi": true,
+    "petFriendly": false,
+    "cabinType": "Craftsman",
+    "amenities": ["Art Supplies", "Workshop Area", "Wood Stove"],
+    "availability": "Booked",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-2.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Modern Glass Cabin",
+    "description": "Fully glass-fronted cabin offering uninterrupted forest views. Stylish, sleek, and ideal for design lovers.",
+    "price": 275,
+    "rating": 5.0,
+    "superhost": true,
+    "location": "Norway",
+    "capacity": {
+      "people": 2,
+      "bedroom": 1
+    },
+    "bathroom": 1,
+    "wifi": true,
+    "petFriendly": true,
+    "cabinType": "Modern",
+    "amenities": ["Glass Walls", "Rain Shower", "Smart Thermostat"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-1.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Cliffside Cabin with Infinity Views",
+    "description": "Perched on a cliff with sweeping valley views, this dramatic cabin is a hidden gem perfect for adventurous couples.",
+    "price": 240,
+    "rating": 4.9,
+    "superhost": true,
+    "location": "Norway",
+    "capacity": {
+      "people": 2,
+      "bedroom": 1
+    },
+    "bathroom": 1,
+    "wifi": true,
+    "petFriendly": false,
+    "cabinType": "Panoramic",
+    "amenities": ["Infinity Deck", "Binoculars", "Emergency Kit"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-1.jpg"
+  },
+  {
+    "id": 26,
+    "title": "Rustic Cabin with Hammock Garden",
+    "description": "Unwind among birch trees in a backyard full of hammocks and fireflies. Great for families or nature lovers.",
+    "price": 160,
+    "rating": 4.6,
+    "superhost": false,
+    "location": "Sweden",
+    "capacity": {
+      "people": 4,
+      "bedroom": 2
+    },
+    "bathroom": 1,
+    "wifi": false,
+    "petFriendly": true,
+    "cabinType": "Rustic",
+    "amenities": ["Hammocks", "Firepit", "Garden View"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-5.jpg"
+  },
+  {
+    "id": 27,
+    "title": "Cabin with Indoor Swing and Reading Nook",
+    "description": "A playful space with an indoor swing, cozy nooks, and shelves lined with books. Ideal for rainy Nordic afternoons.",
+    "price": 190,
+    "rating": 4.8,
+    "superhost": true,
+    "location": "Finland",
+    "capacity": {
+      "people": 3,
+      "bedroom": 2
+    },
+    "bathroom": 1,
+    "wifi": true,
+    "petFriendly": false,
+    "cabinType": "Whimsical",
+    "amenities": ["Indoor Swing", "Reading Nook", "Tea Bar"],
+    "availability": "Booked",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-2.jpg"
+  },
+  {
+    "id": 28,
+    "title": "Lakeside Cabin with Canoes",
+    "description": "This serene lakeside property offers private canoe access and morning mist views. A paddler’s paradise.",
+    "price": 175,
+    "rating": 4.7,
+    "superhost": false,
+    "location": "Switzerland",
+    "capacity": {
+      "people": 4,
+      "bedroom": 2
+    },
+    "bathroom": 1,
+    "wifi": true,
+    "petFriendly": true,
+    "cabinType": "Lakeside",
+    "amenities": ["Canoes", "Dock", "Lake Firepit"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-4.jpg"
+  },
+  {
+    "id": 29,
+    "title": "Tiny Cabin with Loft Bed",
+    "description": "Maximized for space, this tiny cabin includes a loft bed, kitchenette, and wood-burning stove. Cozy and clever!",
+    "price": 125,
+    "rating": 4.5,
+    "superhost": false,
+    "location": "Finland",
+    "capacity": {
+      "people": 2,
+      "bedroom": 1
+    },
+    "bathroom": 1,
+    "wifi": false,
+    "petFriendly": true,
+    "cabinType": "Tiny",
+    "amenities": ["Loft Bed", "Mini Kitchen", "Wood Stove"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-2.jpg"
+  },
+  {
+    "id": 30,
+    "title": "Designer Cabin in the Mountains",
+    "description": "Architecturally striking cabin surrounded by pines and peaks. Ideal for creatives or a romantic escape.",
+    "price": 290,
+    "rating": 5.0,
+    "superhost": true,
+    "location": "Switzerland",
+    "capacity": {
+      "people": 3,
+      "bedroom": 2
+    },
+    "bathroom": 1,
+    "wifi": true,
+    "petFriendly": false,
+    "cabinType": "Designer",
+    "amenities": ["Mountain View", "Indoor Fireplace", "Design Books"],
+    "availability": "Booked",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-4.jpg"
+  },
+  {
+    "id": 31,
+    "title": "Eco-Friendly Cabin with Solar Power",
+    "description": "Stay sustainably in this eco-cabin powered by solar panels and heated with a wood stove. Perfect for off-grid getaways.",
+    "price": 165,
+    "rating": 4.7,
+    "superhost": true,
+    "location": "Norway",
+    "capacity": {
+      "people": 3,
+      "bedroom": 2
+    },
+    "bathroom": 1,
+    "wifi": false,
+    "petFriendly": true,
+    "cabinType": "Eco",
+    "amenities": ["Solar Panels", "Compost Toilet", "Organic Linens"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-1.jpg"
+  },
+  {
+    "id": 32,
+    "title": "Cabin with Nordic Hot Spring Access",
+    "description": "Luxuriate in nearby natural hot springs after a day of hiking. This cabin offers premium comfort in a wild setting.",
+    "price": 280,
+    "rating": 4.9,
+    "superhost": true,
+    "location": "Iceland",
+    "capacity": {
+      "people": 4,
+      "bedroom": 2
+    },
+    "bathroom": 2,
+    "wifi": true,
+    "petFriendly": false,
+    "cabinType": "Luxury",
+    "amenities": ["Hot Springs", "Heated Floors", "Smart Lighting"],
+    "availability": "Booked",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-6.jpg"
+  },
+  {
+    "id": 33,
+    "title": "Hygge Cabin with Candlelit Ambience",
+    "description": "Discover the Danish concept of 'hygge' in this warm, cozy cabin lit by candles and soft textures all around.",
+    "price": 190,
+    "rating": 4.8,
+    "superhost": true,
+    "location": "Denmark",
+    "capacity": {
+      "people": 2,
+      "bedroom": 1
+    },
+    "bathroom": 1,
+    "wifi": false,
+    "petFriendly": true,
+    "cabinType": "Cozy",
+    "amenities": ["Candle Sets", "Wool Blankets", "Board Games"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-3.jpg"
+  },
+  {
+    "id": 34,
+    "title": "Family Cabin with Game Room",
+    "description": "This spacious cabin features a full game room for kids and adults alike. Fun meets comfort in the heart of nature.",
+    "price": 210,
+    "rating": 4.6,
+    "superhost": false,
+    "location": "Sweden",
+    "capacity": {
+      "people": 5,
+      "bedroom": 3
+    },
+    "bathroom": 2,
+    "wifi": true,
+    "petFriendly": true,
+    "cabinType": "Family",
+    "amenities": ["Game Room", "Board Games", "TV + Streaming"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-5.jpg"
+  },
+  {
+    "id": 35,
+    "title": "Minimalist Cabin in Snowy Forest",
+    "description": "Surrounded by snow-covered trees, this minimalist cabin is a haven for those who seek simplicity and silence.",
+    "price": 200,
+    "rating": 4.8,
+    "superhost": true,
+    "location": "Finland",
+    "capacity": {
+      "people": 2,
+      "bedroom": 1
+    },
+    "bathroom": 1,
+    "wifi": true,
+    "petFriendly": false,
+    "cabinType": "Minimalist",
+    "amenities": ["Ski Rack", "Meditation Corner", "Bluetooth Speaker"],
+    "availability": "Booked",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-2.jpg"
+  },
+  {
+    "id": 36,
+    "title": "Treehouse-Style Cabin",
+    "description": "Live among the treetops in this elevated cabin with a swinging bridge and forest canopy views. Ideal for nature lovers.",
+    "price": 225,
+    "rating": 4.9,
+    "superhost": true,
+    "location": "Norway",
+    "capacity": {
+      "people": 2,
+      "bedroom": 1
+    },
+    "bathroom": 1,
+    "wifi": false,
+    "petFriendly": true,
+    "cabinType": "Treehouse",
+    "amenities": ["Canopy View", "Swinging Bridge", "Birdwatching Gear"],
+    "availability": "Available",
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/property-challenge/thumbnail-1.jpg"
+  }
+]
