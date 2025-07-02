@@ -33,6 +33,21 @@ const Filters = ({ onFilter, filtersApplied }) => {
       };
     });
 
+  const handleReset = () => {
+    const defaultFilters = {
+      location: [],
+      superhost: false,
+      wifi: false,
+      petAllowed: false,
+      bedrooms: 'any',
+      bathrooms: 'any',
+      price: '0-Infinity',
+    };
+    setFilters(defaultFilters);
+    onFilter(defaultFilters); // Apply immediately (optional)
+  };
+
+
   const handleSubmit = (e) => {
     e.preventDefault();
     onFilter(filters);
@@ -158,6 +173,15 @@ const Filters = ({ onFilter, filtersApplied }) => {
           ))}
         </div>
       </div>
+      
+      <button
+        type="button"
+        onClick={handleReset}
+        className="border border-gray-300 text-gray-700 font-medium col-span-2 text-center p-4 rounded-md hover:bg-gray-100 transition"
+      >
+        Reset Filters
+      </button>
+
       <button
         type="submit"
         className="flex items-center justify-center gap-2 bg-[#4A5A40] text-white font-medium col-span-2 text-center p-4 rounded-md cursor-pointer hover:bg-[#3a4932] transition"

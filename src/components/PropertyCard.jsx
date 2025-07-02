@@ -1,5 +1,7 @@
-const PropertyCard = ({ property }) => {
-  // console.log(property);
+import { Heart } from "lucide-react";
+
+const PropertyCard = ({ property, isFavorite, handleWishlist }) => {
+
   return (
     <div className="bg-white rounded-xl overflow-hidden shadow-md flex flex-col sm:flex-row">
       {/* Image */}
@@ -10,6 +12,7 @@ const PropertyCard = ({ property }) => {
         className="w-full sm:w-78 h-64 sm:h-60 object-cover"
       />
 
+      
       <div className="flex gap-2 absolute m-2">
         {property.superhost && (
           <span className="bg-teal-500 text-white rounded-full px-2 py-1 text-xs font-medium inline-block">
@@ -22,7 +25,9 @@ const PropertyCard = ({ property }) => {
       </div>
 
       {/* Content */}
-      <div className="p-6 flex flex-col flex-1">
+      <div className=" relative p-6 flex flex-col flex-1">
+      <button className="absolute top-2 right-2 cursor-pointer hover:bg-black/10 p-2 rounded-full transition" onClick={() => handleWishlist(property)}><Heart fill={isFavorite ? "#3a4932" : "transparent"} /></button>
+
         {/* Header: Title + Rating */}
         <h2 className="text-2xl font-heading text-[#3B2F2F] leading-tight">
           {property.title}
