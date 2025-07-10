@@ -1,6 +1,6 @@
 import { Heart } from "lucide-react";
 
-const PropertyCard = ({ property, isFavorite, handleWishlist }) => {
+const PropertyCardDetail = ({ property, isFavorite, handleWishlist }) => {
 
   return (
     <div className="bg-white rounded-xl overflow-hidden shadow-md flex flex-col sm:flex-row">
@@ -73,4 +73,4 @@ const PropertyCard = ({ property, isFavorite, handleWishlist }) => {
   );
 };
 
-export default PropertyCard;
+export default PropertyCardDetail;

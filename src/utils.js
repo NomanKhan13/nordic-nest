@@ -27,6 +27,7 @@ export function applyFilters(sort, properties, filters) {
   if (sort === 'lowest-price') {
     result = result.sort((a, b) => a.price - b.price);
   }
+  
 
   console.log(result);
 
@@ -57,6 +58,10 @@ export function applyFilters(sort, properties, filters) {
 
   if (filters.location.length > 0) {
     result = result.filter((p) => filters.location.includes(p.location));
+  }
+
+  if (result[0]?.power) {
+    result = result.sort((a, b) => b.power - a.power);
   }
 
   return result;
