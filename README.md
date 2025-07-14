@@ -1,5 +1,7 @@
 # Nordic Nest – Feature Checklist 🏡
 
+live link - https://nordic-nest.netlify.app/
+
 ## ✅ Must-Have Features
 
 - [ ] Show list of properties (image, title, location, price, rating)
